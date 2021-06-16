@@ -1,0 +1,7 @@
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\obj\Debug\ClubeLeitura.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\obj\Debug\ClubeLeitura.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\bin\Debug\ClubeLeitura.ConsoleApp.exe.config
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\bin\Debug\ClubeLeitura.ConsoleApp.exe
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\bin\Debug\ClubeLeitura.ConsoleApp.pdb
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\obj\Debug\ClubeLeitura.ConsoleApp.exe
+C:\Users\rafae\source\repos\ClubeLeitura\clone\ClubeLeitura.ConsoleApp\obj\Debug\ClubeLeitura.ConsoleApp.pdb

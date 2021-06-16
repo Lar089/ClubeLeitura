@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClubeLeitura.ConsoleApp.Telas.TelaAmigo">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAACAAAAAAICAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>Telas\TelaAmigo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controladorAmigo" />
+    </ShowAsAssociation>
+    <Lollipop Position="1.152" />
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Telas.TelaBase" HideInheritanceLine="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAIAAAAAAAAAAAAAAACAAAAAAAAAAEAAAABA=</HashCode>
+      <FileName>Telas\TelaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorAmigo">
+    <Position X="6" Y="2.75" Width="1.75" />
+    <InheritanceLine Type="ClubeLeitura.ConsoleApp.Controladores.ControladorBase" FixedFromPoint="true">
+      <Path>
+        <Point X="6.875" Y="2.055" />
+        <Point X="6.875" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQABAAAAAAAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorAmigo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorBase" HideInheritanceLine="true">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFBAAAAAAAEIBAAAAACQAAAAAAAAAEAABAAAA=</HashCode>
+      <FileName>Controladores\ControladorBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="registros" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.Amigo">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAgAAIAAgAAAAAAAAAACEQAAAAAAAAAEAAA=</HashCode>
+      <FileName>Dominio\Amigo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="historicoEmprestimos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.EntidadeBase">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Dominio\EntidadeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.Emprestimo" HideInheritanceLine="true">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kABAAAAAAAAAAAABAABAAAAAAAAAAQAAAABAAAAAAAA=</HashCode>
+      <FileName>Dominio\Emprestimo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="amiguinho" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

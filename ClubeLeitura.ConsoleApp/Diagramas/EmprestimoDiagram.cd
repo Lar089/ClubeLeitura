@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.Emprestimo" Collapsed="true">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kABAAAAAAAAAAAABAABAAAAAAAAAAQAAAABAAAAAAAA=</HashCode>
+      <FileName>Dominio\Emprestimo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="amiguinho" />
+      <Field Name="revistinha" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.Amigo" Collapsed="true" HideInheritanceLine="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAgAAIAAgAAAAAAAAAAAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>Dominio\Amigo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.Revista" Collapsed="true" HideInheritanceLine="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAgAIAAQAAAAAgAAAEAAA=</HashCode>
+      <FileName>Dominio\Revista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorEmprestimo">
+    <Position X="1" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorEmprestimo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorBase">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFBAAAAAAAEIBAAAAACQAAAAAAAAAEAABAAAA=</HashCode>
+      <FileName>Controladores\ControladorBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="registros" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Dominio.EntidadeBase" Collapsed="true">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Dominio\EntidadeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Telas.TelaEmprestimo">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <AssociationLine Name="controladorAmigo" Type="ClubeLeitura.ConsoleApp.Controladores.ControladorAmigo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.938" Y="7.944" />
+        <Point X="4.938" Y="8.194" />
+        <Point X="4" Y="8.194" />
+        <Point X="4" Y="7.875" />
+        <Point X="2.5" Y="7.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="telaRevista" Type="ClubeLeitura.ConsoleApp.Telas.TelaRevista">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="-0.982" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BECAAAAAAAAAAAAACAAAAAAAEAQCEAAAAAAAAAACEAA=</HashCode>
+      <FileName>Telas\TelaEmprestimo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controladorAmigo" />
+      <Field Name="controladorEmprestimo" />
+      <Field Name="telaAmigo" />
+      <Field Name="telaRevista" />
+      <Field Name="controladorRevista" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorAmigo" Collapsed="true" HideInheritanceLine="true">
+    <Position X="0.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorAmigo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Telas.TelaAmigo" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAACAAAAAAICAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>Telas\TelaAmigo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Telas.TelaRevista" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAEAAAAAAAAAAAAAAAAIGAAAAAAAAAAABCBAAAA=</HashCode>
+      <FileName>Telas\TelaRevista.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.491" />
+  </Class>
+  <Class Name="ClubeLeitura.ConsoleApp.Controladores.ControladorRevista" Collapsed="true" HideInheritanceLine="true">
+    <Position X="0.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAADAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Controladores\ControladorRevista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
